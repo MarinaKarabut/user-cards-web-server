@@ -18,7 +18,7 @@ const getById = body => {
 
 module.exports = {
   add,
-  getOne,
   getAll,
+  getOne,
   getById,
 }

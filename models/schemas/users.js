@@ -19,6 +19,14 @@ const userSchema = Schema({
     type: String,
     default: null,
   },
+  name: {
+    type: String,
+    default: null,
+  },
+  avatar: {
+    type: String,
+    default: null,
+  },
 })
 
 userSchema.methods.setPassword = function (password) {

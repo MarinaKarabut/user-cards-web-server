@@ -2,7 +2,6 @@ const {cards: service} = require('../../services')
 
 const getCards = async (req, res, next) => {
   const {user} = req
-  console.log(user)
   try {
     const cards = await service.getAll({user: user._id})
     res.json({
